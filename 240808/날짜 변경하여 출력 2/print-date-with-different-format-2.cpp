@@ -7,6 +7,6 @@ int main() {
     char d;
 
     cin >> a >> d >> b >> d >> c;
-    cout << c<<"."<<a<<"."<<b;
+    cout << c <<"."<< a <<"."<< b;
     return 0;
 }
