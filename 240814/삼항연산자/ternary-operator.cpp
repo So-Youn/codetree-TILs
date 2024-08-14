@@ -11,5 +11,5 @@ int main() {
     if (a==0)
         cout << "pass";
     else
-        cout << "fail";
+        cout << "failure";
 }
