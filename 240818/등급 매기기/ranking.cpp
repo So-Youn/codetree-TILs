@@ -15,7 +15,7 @@ int main() {
     else if (a >= 60)
        cout << "D";
     else
-       cout << "E";
+       cout << "F";
 
     return 0;
 }
