@@ -8,7 +8,7 @@ int main() {
     cin >> a;
    
     
-    n= (a=1)? 't' : 'f';
+    n= (a==1)? 't' : 'f';
     cout << n;
     return 0;
 }
