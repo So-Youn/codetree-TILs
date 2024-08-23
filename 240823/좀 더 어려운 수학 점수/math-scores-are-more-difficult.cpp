@@ -14,5 +14,7 @@ int main() {
     else if (A_ma == B_ma && (A_en > B_en))
         cout << "A";
 
+    // if(a_math > b_math || (a_math == b_math && a_eng > b_eng))
+    //    cout << "A";
     return 0;
 }
