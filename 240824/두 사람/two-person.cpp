@@ -8,7 +8,7 @@ int main() {
     cin >> A_age >> A_sex;
     cin >> B_age >> B_sex;
 
-    if ((A_age >= 19 || B_age >= 19 ) && (A_sex == 'M' || B_sex == 'M') )
+    if ((A_age >= 19 && A_sex == 'M' ) || (B_age >= 19 && B_sex == 'M'))
         cout << 1;
     else
         cout << 0;
