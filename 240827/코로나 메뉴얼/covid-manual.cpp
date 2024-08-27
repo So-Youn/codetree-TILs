@@ -8,12 +8,14 @@ int main() {
     cin >> A_stat >> A_temp;
     cin >> B_stat >> B_temp;
     cin >> C_stat >> C_temp;
-
+    
+    // 첫번째 사람이 A 인경우 
     if (A_stat =='Y' && A_temp >= 37)
         if ((B_stat == 'Y' && B_temp >=37) || (C_stat =='Y' && C_temp >=37))
             cout << "E";
         else 
             cout << "N";
+     // 첫번째 사람이 A가 아닌 경우 
     else
         if ((B_stat == 'Y' && B_temp >=37) && (C_stat =='Y' && C_temp >=37))
             cout << "E";
